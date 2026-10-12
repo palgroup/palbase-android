@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-notify",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-notify-0.1.0.aar",
+          "url": "palbase-notify-0.1.0.aar",
+          "size": 62795,
+          "sha512": "9386f0389d57ded088677880470ceefeffee1763a5d2a22ff2bf15b846ad71635494dcb7360e309daca945424cab455bc34d21b506d85fc7e680b3b6029250e5",
+          "sha256": "c8933818acb8975a52d0270efd46d05bac01b151eb3a3c21dc6c8201f07f541c",
+          "sha1": "e231b4e00a4794a24a01606aded30ee0895d22bc",
+          "md5": "3d3cdb4552ed0663edebb37c3aabfa50"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-notify-0.1.0.aar",
+          "url": "palbase-notify-0.1.0.aar",
+          "size": 62795,
+          "sha512": "9386f0389d57ded088677880470ceefeffee1763a5d2a22ff2bf15b846ad71635494dcb7360e309daca945424cab455bc34d21b506d85fc7e680b3b6029250e5",
+          "sha256": "c8933818acb8975a52d0270efd46d05bac01b151eb3a3c21dc6c8201f07f541c",
+          "sha1": "e231b4e00a4794a24a01606aded30ee0895d22bc",
+          "md5": "3d3cdb4552ed0663edebb37c3aabfa50"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-notify-0.1.0-javadoc.jar",
+          "url": "palbase-notify-0.1.0-javadoc.jar",
+          "size": 474416,
+          "sha512": "c70c4367bda435a8ad65a26d8ebe1391dd1a73308d487b501dc2f65364359424793f50c3d552a487ccb6f99ea004013ca8216499062a93d7518e32455f7fd5e3",
+          "sha256": "9e229ea8f26316c509b3fc066209609792f894bdc7a7b5dad0af978cb9b1837b",
+          "sha1": "c10083d8299689aafaaebaee7b771a21676737b8",
+          "md5": "b0a33c4a74d27ec463ec4e63e91ffa9e"
+        }
+      ]
+    }
+  ]
+}

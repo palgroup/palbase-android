@@ -1,0 +1,148 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-bom",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase-runtime",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-flags",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-analytics",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-realtime",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-notify",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-storage",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-palbe",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase-runtime",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-flags",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-analytics",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-realtime",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-notify",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-storage",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-palbe",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ]
+    }
+  ]
+}
