@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-analytics",
+    "version": "0.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-analytics-0.3.1.aar",
+          "url": "palbase-analytics-0.3.1.aar",
+          "size": 179816,
+          "sha512": "35966f3a6e91c377dd833945473d8056094be831a384afb75112ec986d529484d6b5ebfe1dab5d046981e83a895a8f9b29f19aa1cfedde732bab928ea611c13a",
+          "sha256": "9e43f9c2a26a621c629cba3fd113dfd83e20f8f4961bc3f6f8a45981acc9b401",
+          "sha1": "3fa2e8b9ed874edb3656fc7ecf3c5418924a62bd",
+          "md5": "f1094147f15344dc53c4d2a0328322e1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-analytics-0.3.1.aar",
+          "url": "palbase-analytics-0.3.1.aar",
+          "size": 179816,
+          "sha512": "35966f3a6e91c377dd833945473d8056094be831a384afb75112ec986d529484d6b5ebfe1dab5d046981e83a895a8f9b29f19aa1cfedde732bab928ea611c13a",
+          "sha256": "9e43f9c2a26a621c629cba3fd113dfd83e20f8f4961bc3f6f8a45981acc9b401",
+          "sha1": "3fa2e8b9ed874edb3656fc7ecf3c5418924a62bd",
+          "md5": "f1094147f15344dc53c4d2a0328322e1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-analytics-0.3.1-javadoc.jar",
+          "url": "palbase-analytics-0.3.1-javadoc.jar",
+          "size": 569108,
+          "sha512": "f77021acf0fb17c348eb916f8dd14d44566083702eddde78cabf91f1a3e3ee4f54bdbd3c0de0f116f381e22888a663fa662bb49b9024ca20a11cd3771c582156",
+          "sha256": "b69cf87bc2e1ec00b31b0c873efdcb7cfb19eead98d62fce883022cb0d0e96c7",
+          "sha1": "12b9f36915eb73f2578b3cbd1d7f46a7512d2c88",
+          "md5": "502e0d23c23e91ffa1fe0233e8e91120"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase",
+    "version": "0.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase-runtime",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-0.3.1.aar",
+          "url": "palbase-0.3.1.aar",
+          "size": 1843053,
+          "sha512": "913487cb68c57bfcb027a8988c44440ed7d8e6040c46ce942925deb573788dd2f285dfa7eb2352a78627b76e459a1ed1a01255914b9ddad088d43be4c09b65a0",
+          "sha256": "8d943e5d7bb814533fc63efdad997e890ffef79e4d9d0000f8b363543ad829f3",
+          "sha1": "c58f362b90c229a79dc5b86d79c6f1dfce0d2c7f",
+          "md5": "d9249989c9b4d74d901108d27df290b0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase-runtime",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-0.3.1.aar",
+          "url": "palbase-0.3.1.aar",
+          "size": 1843053,
+          "sha512": "913487cb68c57bfcb027a8988c44440ed7d8e6040c46ce942925deb573788dd2f285dfa7eb2352a78627b76e459a1ed1a01255914b9ddad088d43be4c09b65a0",
+          "sha256": "8d943e5d7bb814533fc63efdad997e890ffef79e4d9d0000f8b363543ad829f3",
+          "sha1": "c58f362b90c229a79dc5b86d79c6f1dfce0d2c7f",
+          "md5": "d9249989c9b4d74d901108d27df290b0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-0.3.1-javadoc.jar",
+          "url": "palbase-0.3.1-javadoc.jar",
+          "size": 1829102,
+          "sha512": "6696c5303d7c16d0ac8ba3bfbc1a70054d05815bb89a811a760a474524b99a2a285717698a3ebfdd6292f778a80d1f1c37a6265677931a45591e0873fcafc72b",
+          "sha256": "e4cedac76dad0daf1ee2bd5c3ed12e2cc16d7057772ffc36161c24ccc253091c",
+          "sha1": "fdfdb35552ce6ced151926da618d475f419c8320",
+          "md5": "88129575eb9afd1489c11a8bada8bf02"
+        }
+      ]
+    }
+  ]
+}
