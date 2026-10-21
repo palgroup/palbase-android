@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-realtime",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-realtime-0.5.0.aar",
+          "url": "palbase-realtime-0.5.0.aar",
+          "size": 18274,
+          "sha512": "a9a414cf76b6cc65a0589c0b7513c98a2aafd4e66aa737f14e325e0b0b124ddc3ce6660fc5538bbd35ce955f377e0508bb76ba9334e7f85dd06f19635deff54b",
+          "sha256": "1e63efad4f29e5066e3f70fc158f5361b1f88807b4aee6fdeb90a5deefcbe09c",
+          "sha1": "5c45c3574b3cde60d661e2d40fbbd909f5ae1e10",
+          "md5": "77ec44601af747e6990fb62ccdcc1a43"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-realtime-0.5.0.aar",
+          "url": "palbase-realtime-0.5.0.aar",
+          "size": 18274,
+          "sha512": "a9a414cf76b6cc65a0589c0b7513c98a2aafd4e66aa737f14e325e0b0b124ddc3ce6660fc5538bbd35ce955f377e0508bb76ba9334e7f85dd06f19635deff54b",
+          "sha256": "1e63efad4f29e5066e3f70fc158f5361b1f88807b4aee6fdeb90a5deefcbe09c",
+          "sha1": "5c45c3574b3cde60d661e2d40fbbd909f5ae1e10",
+          "md5": "77ec44601af747e6990fb62ccdcc1a43"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-realtime-0.5.0-javadoc.jar",
+          "url": "palbase-realtime-0.5.0-javadoc.jar",
+          "size": 440818,
+          "sha512": "516515a7819a6a461939fa9bbec52f26ec1a08a8808e6bc74a5f5aed1a8c66e2723ff270ba018be1c84419d0ed1437e3483d257dc3b30d6e7aa42bc25225383f",
+          "sha256": "3d8de4649f327926ddfab45c433138a04fe574bbf7bbf9173bcafe731b1ff68a",
+          "sha1": "9cdd5eb27f5697a7f317fcf0d1bb47a3b409c018",
+          "md5": "a0880220cd2c95d8ea7836698a714558"
+        }
+      ]
+    }
+  ]
+}
