@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-voice",
+    "version": "0.5.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-voice-0.5.2.aar",
+          "url": "palbase-voice-0.5.2.aar",
+          "size": 37224,
+          "sha512": "9de1ff1242db01311f89191a7b60502fb20e70fbbb5e60ebe9f0d2a06abb0381f19f09c29b19ee25809d21b12af38bf192f530bb4c4f8c0c948d72ee287bd7a1",
+          "sha256": "36dae9d48459f1fdec15480b9606d0b875850640de7d0065665b6c7ff1f2c30f",
+          "sha1": "10fb56f327db9aa893dba76f8ba1d0c66b65f886",
+          "md5": "cf707b0dcd5a293ab9caf384323c31d4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.webrtc-sdk",
+          "module": "android-prefixed",
+          "version": {
+            "requires": "144.7559.08"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-voice-0.5.2.aar",
+          "url": "palbase-voice-0.5.2.aar",
+          "size": 37224,
+          "sha512": "9de1ff1242db01311f89191a7b60502fb20e70fbbb5e60ebe9f0d2a06abb0381f19f09c29b19ee25809d21b12af38bf192f530bb4c4f8c0c948d72ee287bd7a1",
+          "sha256": "36dae9d48459f1fdec15480b9606d0b875850640de7d0065665b6c7ff1f2c30f",
+          "sha1": "10fb56f327db9aa893dba76f8ba1d0c66b65f886",
+          "md5": "cf707b0dcd5a293ab9caf384323c31d4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-voice-0.5.2-javadoc.jar",
+          "url": "palbase-voice-0.5.2-javadoc.jar",
+          "size": 433369,
+          "sha512": "c04032270313203d30d3a085d8669447076ed83043f2d109a89f1c6ac4bff5d36a70f5d7ad2869a5bac710395b7957d22ab0affb855f5deb37acde94979f12ce",
+          "sha256": "702e5767d5eb56e2d77fe09f2e060343d5d5ac7ade610457d7c6125f09f83429",
+          "sha1": "b2f83b87323dcd908c784961d1f1335dc442ec49",
+          "md5": "761e91409a0cd4e8483fc29306e14bdf"
+        }
+      ]
+    }
+  ]
+}
