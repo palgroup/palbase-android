@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-palbe",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-palbe-0.7.0.aar",
+          "url": "palbase-palbe-0.7.0.aar",
+          "size": 330315,
+          "sha512": "4b26e0a8d2b21e088c83ff3c19814840552afd29342c3e0e07860b66839f90393ca89a289f91238a0fe05cbcffcbaf4ab866fef28401d6053ed4b60660bb1435",
+          "sha256": "2773f2164933c5bbbcd63aad2dee82867ef3ce40a864259f674f5fd6a4be1231",
+          "sha1": "36cc803d8bcf6aeb0edf57d931a6d717d990ad09",
+          "md5": "e2fa50e50ab25cdf4ce2df1531ef2910"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.24.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-palbe-0.7.0.aar",
+          "url": "palbase-palbe-0.7.0.aar",
+          "size": 330315,
+          "sha512": "4b26e0a8d2b21e088c83ff3c19814840552afd29342c3e0e07860b66839f90393ca89a289f91238a0fe05cbcffcbaf4ab866fef28401d6053ed4b60660bb1435",
+          "sha256": "2773f2164933c5bbbcd63aad2dee82867ef3ce40a864259f674f5fd6a4be1231",
+          "sha1": "36cc803d8bcf6aeb0edf57d931a6d717d990ad09",
+          "md5": "e2fa50e50ab25cdf4ce2df1531ef2910"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-palbe-0.7.0-javadoc.jar",
+          "url": "palbase-palbe-0.7.0-javadoc.jar",
+          "size": 802120,
+          "sha512": "398a293e4ac6ab7005fca60c675e8ca68432501227ed0ec87d4aa4ccc139a4af35576f5940c3e779680a49252a3a1509fc556bad1a778efe11d2172bd8a16b14",
+          "sha256": "ddf1d5e8d74bfed6d178a2554f5e30566506fe839858f2f3ddea22ec3769c5e8",
+          "sha1": "f3a5e6384cf609f1783d288d46101546e32e9123",
+          "md5": "2f3fe19a1583cb1ad8659e9d22b57a4f"
+        }
+      ]
+    }
+  ]
+}
