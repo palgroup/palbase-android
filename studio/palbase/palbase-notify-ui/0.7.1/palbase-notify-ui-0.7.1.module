@@ -1,0 +1,171 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-notify-ui",
+    "version": "0.7.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase-notify",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-ui",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2026.09.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-notify-ui-0.7.1.aar",
+          "url": "palbase-notify-ui-0.7.1.aar",
+          "size": 54112,
+          "sha512": "924c226c67a8e4b0a9d15591a86a7d34f49d05409cd2d138aef9d28f4231a0bf2736a2027897ffee966d790b782f6ed0e714751f354532b45a3ce02614dcd11e",
+          "sha256": "715d723e9db473930bd7f8c215e900271612006c2c3a953cbd71bb926cd03af0",
+          "sha1": "c27a124f6f67d587c52d37f7de375e7561cb6606",
+          "md5": "899f74bb73fd70cfe9feae114c1e16c0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-notify",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-ui",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2026.09.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-notify-ui-0.7.1.aar",
+          "url": "palbase-notify-ui-0.7.1.aar",
+          "size": 54112,
+          "sha512": "924c226c67a8e4b0a9d15591a86a7d34f49d05409cd2d138aef9d28f4231a0bf2736a2027897ffee966d790b782f6ed0e714751f354532b45a3ce02614dcd11e",
+          "sha256": "715d723e9db473930bd7f8c215e900271612006c2c3a953cbd71bb926cd03af0",
+          "sha1": "c27a124f6f67d587c52d37f7de375e7561cb6606",
+          "md5": "899f74bb73fd70cfe9feae114c1e16c0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-notify-ui-0.7.1-javadoc.jar",
+          "url": "palbase-notify-ui-0.7.1-javadoc.jar",
+          "size": 415869,
+          "sha512": "864ba87ea6617a0a2b3a69e953228495e46d0f00cb0d1c64ee7bca1dfc9a91cfc499d181f8c0f7c84f9a7fe751a1f60d952cf0b0f4ff4835d635e0b5a20ac129",
+          "sha256": "94e855d821128fa2eeea90a7c2ec0ce545bf772a1b13da22adca792c98aef487",
+          "sha1": "f49697571e89098777d83fc68050c6545a08182d",
+          "md5": "dc55007681a294667539b208dcb27b99"
+        }
+      ]
+    }
+  ]
+}
