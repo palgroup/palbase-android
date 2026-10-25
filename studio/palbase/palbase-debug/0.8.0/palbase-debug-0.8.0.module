@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-debug",
+    "version": "0.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-flags",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-debug-0.8.0.aar",
+          "url": "palbase-debug-0.8.0.aar",
+          "size": 441030,
+          "sha512": "87668b563b20af14358c0f4702f60b16a6b2759f9c08835cd7c7d762fbe99371f6694bf687dd9f3e6c13c6a532d65335c13526ad14d9060a526ffec80adea023",
+          "sha256": "a17284038f1f902bc345a17f81165b436feffef69403a76c05947ff62c31df18",
+          "sha1": "e3c419605aba93d9f5d81647b9e2988609fff45c",
+          "md5": "c4c1a277f2f445a7fca1cc8ed780b5a7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2026.09.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-flags",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-debug-0.8.0.aar",
+          "url": "palbase-debug-0.8.0.aar",
+          "size": 441030,
+          "sha512": "87668b563b20af14358c0f4702f60b16a6b2759f9c08835cd7c7d762fbe99371f6694bf687dd9f3e6c13c6a532d65335c13526ad14d9060a526ffec80adea023",
+          "sha256": "a17284038f1f902bc345a17f81165b436feffef69403a76c05947ff62c31df18",
+          "sha1": "e3c419605aba93d9f5d81647b9e2988609fff45c",
+          "md5": "c4c1a277f2f445a7fca1cc8ed780b5a7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-debug-0.8.0-javadoc.jar",
+          "url": "palbase-debug-0.8.0-javadoc.jar",
+          "size": 431884,
+          "sha512": "6bb5fa317e1452497da58935ce270340e63531645bb49d98a9e5f3a75a38e9428589090913c523ddfa49e42903b8fe3513e277852878ff7b7f1949270c91876a",
+          "sha256": "a7058e0fe25a2801e0a5cbb7a83b56f693944d6471ecbe0d0d53dd73bc853e2b",
+          "sha1": "551f8bf38482cadf4d9beeb17b5f4c81682e2c54",
+          "md5": "1e111d77699ea1b47b546820238cb95c"
+        }
+      ]
+    }
+  ]
+}

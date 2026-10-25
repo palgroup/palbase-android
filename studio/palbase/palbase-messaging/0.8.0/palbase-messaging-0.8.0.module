@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-messaging",
+    "version": "0.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-messaging-0.8.0.aar",
+          "url": "palbase-messaging-0.8.0.aar",
+          "size": 803170,
+          "sha512": "23b7ca52218cd9cd357df59d094430472ebc2006de81287cf5a04a0bb764c9274211f1c1108e8229a7bb00802d1f2833f54745a1d048a89b2aed8fd31db2e508",
+          "sha256": "0cb9f1a0a037a1b792b8bfed4e21c9e52b84a8316e5fb3c491fcafc0420cc7ff",
+          "sha1": "268eb2ad6a73f79b0dfa904efdbe27b06f989a1c",
+          "md5": "8efe34531edaf8fd84b0ce6fafecd610"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-messaging-0.8.0.aar",
+          "url": "palbase-messaging-0.8.0.aar",
+          "size": 803170,
+          "sha512": "23b7ca52218cd9cd357df59d094430472ebc2006de81287cf5a04a0bb764c9274211f1c1108e8229a7bb00802d1f2833f54745a1d048a89b2aed8fd31db2e508",
+          "sha256": "0cb9f1a0a037a1b792b8bfed4e21c9e52b84a8316e5fb3c491fcafc0420cc7ff",
+          "sha1": "268eb2ad6a73f79b0dfa904efdbe27b06f989a1c",
+          "md5": "8efe34531edaf8fd84b0ce6fafecd610"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-messaging-0.8.0-javadoc.jar",
+          "url": "palbase-messaging-0.8.0-javadoc.jar",
+          "size": 1057664,
+          "sha512": "6ac3288673c558810f6251929189716152276c45df3a2ac01226751ece8330520a4b9ba2c21a5b4c5e298ca04b1559154a374825fd18673ed37235e1b89de5ce",
+          "sha256": "dd25707ae876d9e7279f915a63aafb64aa735959cd20108e3ca351297313b5d0",
+          "sha1": "8420699c8a6c69c7b05102e204b550c369935fbe",
+          "md5": "230c108987e4588ffcbac4a690a54f73"
+        }
+      ]
+    }
+  ]
+}
