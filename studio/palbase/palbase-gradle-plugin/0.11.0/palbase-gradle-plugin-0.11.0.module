@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-gradle-plugin",
+    "version": "0.11.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "palbase-gradle-plugin-0.11.0.jar",
+          "url": "palbase-gradle-plugin-0.11.0.jar",
+          "size": 9599,
+          "sha512": "fb84665aa30d2e0e97422a3fb5bc80f91809da9346464754435a6076f0c3d60c54f00ab632cd9be90045905bd8a725db8365f44796895f62a2365bb6a3410378",
+          "sha256": "79cb689c36d7b0d6305dc332efb70759e2f8ddac8d4714bd034dea85fedc82c7",
+          "sha1": "144b01906525658c2d001c79b93595b9f6b659f4",
+          "md5": "2a989a550abf0a625eca07fd7de2a34b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-gradle-plugin-0.11.0.jar",
+          "url": "palbase-gradle-plugin-0.11.0.jar",
+          "size": 9599,
+          "sha512": "fb84665aa30d2e0e97422a3fb5bc80f91809da9346464754435a6076f0c3d60c54f00ab632cd9be90045905bd8a725db8365f44796895f62a2365bb6a3410378",
+          "sha256": "79cb689c36d7b0d6305dc332efb70759e2f8ddac8d4714bd034dea85fedc82c7",
+          "sha1": "144b01906525658c2d001c79b93595b9f6b659f4",
+          "md5": "2a989a550abf0a625eca07fd7de2a34b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-gradle-plugin-0.11.0-javadoc.jar",
+          "url": "palbase-gradle-plugin-0.11.0-javadoc.jar",
+          "size": 93217,
+          "sha512": "726db3adffe6092a4e34d3b6cd8dd4b008d7f64864db5da0eda828f7cf70e80ca8cdb65f8fad4e7d7023909d80138c9f49c1429de735cdb3495fd5bc1ede540b",
+          "sha256": "e9d11b937f7c4d39a2e155e3575eda427b4b9e2f7d108aa19310d0dbfb4fdf32",
+          "sha1": "33794fc39d04308bb69efda894a52e147f575042",
+          "md5": "ac84fa5946bd8a08e213b9e4ce6da28e"
+        }
+      ]
+    }
+  ]
+}
