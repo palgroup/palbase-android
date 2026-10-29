@@ -1,0 +1,157 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-ui",
+    "version": "0.13.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.08.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-ui-0.13.0.aar",
+          "url": "palbase-ui-0.13.0.aar",
+          "size": 167986,
+          "sha512": "fc3c17b992908fec4870237f0b5a710b5cb2a7b3cc3cf96f947a0108a91656af132dd13196bb33fff4c60fa861371a8c30bfeb63482f076270e1da431bdd3528",
+          "sha256": "b5ffccb10873a9ad6d4570f43b608c1acc2bacdf87fd72a9debe5e945bdccd6e",
+          "sha1": "b2b7dbbbc0b1cf5cb6d5a62b6eed8074cb488857",
+          "md5": "f45e76d5a9206edafea87e417ccf9b59"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.3.2"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.08.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-ui-0.13.0.aar",
+          "url": "palbase-ui-0.13.0.aar",
+          "size": 167986,
+          "sha512": "fc3c17b992908fec4870237f0b5a710b5cb2a7b3cc3cf96f947a0108a91656af132dd13196bb33fff4c60fa861371a8c30bfeb63482f076270e1da431bdd3528",
+          "sha256": "b5ffccb10873a9ad6d4570f43b608c1acc2bacdf87fd72a9debe5e945bdccd6e",
+          "sha1": "b2b7dbbbc0b1cf5cb6d5a62b6eed8074cb488857",
+          "md5": "f45e76d5a9206edafea87e417ccf9b59"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-ui-0.13.0-javadoc.jar",
+          "url": "palbase-ui-0.13.0-javadoc.jar",
+          "size": 420310,
+          "sha512": "2d3df0f9dcc0e24f6c90f457e6bf633144faa6d551ee7d5dc420eaab8e71ce340fc5d8a662ae3901d72301ba5ae4f251807ac558c34b02df4fec2382298a2d7c",
+          "sha256": "dac348e476ea21fbaff73a78e4b0ce3c4720344e1a13de7209b3c5e54c0ac864",
+          "sha1": "78e56af0653d8135c1a4ab5aea4cda14e9a628ac",
+          "md5": "02cd60b93df0f94f8a452d5c83bbb901"
+        }
+      ]
+    }
+  ]
+}
