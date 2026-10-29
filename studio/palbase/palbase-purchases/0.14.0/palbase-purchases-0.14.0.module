@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-purchases",
+    "version": "0.14.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.14.0"
+          }
+        },
+        {
+          "group": "com.android.billingclient",
+          "module": "billing",
+          "version": {
+            "requires": "9.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-purchases-0.14.0.aar",
+          "url": "palbase-purchases-0.14.0.aar",
+          "size": 1279156,
+          "sha512": "e2ae1e3a87dfaf530fc1217f2536ade68a0bc06c512229f582f7600d227be8ec4ae93e5e6c73409e3e2d30a67c7e3d63624fcd58bca88222f9813d3ae04d7c32",
+          "sha256": "ad65678c54a482477866e8fa656c1cb4ff04e8c8ca8b6b23dec0e8ba030f1d83",
+          "sha1": "f23c5222403e3c7cbdfd3ce4b7390813666bb41e",
+          "md5": "d5cca2007439f6d740645b310fc8c2c9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.14.0"
+          }
+        },
+        {
+          "group": "com.android.billingclient",
+          "module": "billing",
+          "version": {
+            "requires": "9.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-purchases-0.14.0.aar",
+          "url": "palbase-purchases-0.14.0.aar",
+          "size": 1279156,
+          "sha512": "e2ae1e3a87dfaf530fc1217f2536ade68a0bc06c512229f582f7600d227be8ec4ae93e5e6c73409e3e2d30a67c7e3d63624fcd58bca88222f9813d3ae04d7c32",
+          "sha256": "ad65678c54a482477866e8fa656c1cb4ff04e8c8ca8b6b23dec0e8ba030f1d83",
+          "sha1": "f23c5222403e3c7cbdfd3ce4b7390813666bb41e",
+          "md5": "d5cca2007439f6d740645b310fc8c2c9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-purchases-0.14.0-javadoc.jar",
+          "url": "palbase-purchases-0.14.0-javadoc.jar",
+          "size": 1719395,
+          "sha512": "b025904c0ace249f744fe5e88a9d191f31b3c9a26f78abe3658df83125744e92e771c574ace6a0dd7bed24fcb943c7707b4776b92d710ae4fdb77b79357cafd2",
+          "sha256": "68911aeb53cb6b19d3b00e212e5803d4c5fa184c9b31781166d8bf76657892c4",
+          "sha1": "3e665138a036a42bb8d2da017a48d0c2082d67e3",
+          "md5": "74f2d1151d564d27920c83bf82625db3"
+        }
+      ]
+    }
+  ]
+}
