@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-storage",
+    "version": "0.14.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.14.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-storage-0.14.1.aar",
+          "url": "palbase-storage-0.14.1.aar",
+          "size": 72012,
+          "sha512": "50a60427d9e53e7aef3ad39d36207928db2d181a81a8c7026d13836fb5cd8e9fc07c289132105ef9824708e35b4a92b274d03395eaccf0f36070c16e4f3df839",
+          "sha256": "1d6d3e6dcfd6e0b505c9bf65bf543318f03a937e9a17c5a994c6ded2c03378a2",
+          "sha1": "da8c303be2abcbfb8b4d179d724e38b55636f078",
+          "md5": "93850b1922392e4f652cc06890936df6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.14.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-storage-0.14.1.aar",
+          "url": "palbase-storage-0.14.1.aar",
+          "size": 72012,
+          "sha512": "50a60427d9e53e7aef3ad39d36207928db2d181a81a8c7026d13836fb5cd8e9fc07c289132105ef9824708e35b4a92b274d03395eaccf0f36070c16e4f3df839",
+          "sha256": "1d6d3e6dcfd6e0b505c9bf65bf543318f03a937e9a17c5a994c6ded2c03378a2",
+          "sha1": "da8c303be2abcbfb8b4d179d724e38b55636f078",
+          "md5": "93850b1922392e4f652cc06890936df6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-storage-0.14.1-javadoc.jar",
+          "url": "palbase-storage-0.14.1-javadoc.jar",
+          "size": 500857,
+          "sha512": "afd957bb304703839e995c2e8df626f5580482cb978ed0379829a757335dcdfeda994423b1380c09ac99ba9f4a314aba6c4369c779dad3b44d79025c1fee8de6",
+          "sha256": "097fedc82535404c4479be7355f2c84cfb19a7200996b8630de042274e1626b7",
+          "sha1": "a261d96eff6dbd5bf3cb6ca78aeaf25e2e28b8c8",
+          "md5": "e2b4951ac020fd385c72bbe8bb12aef1"
+        }
+      ]
+    }
+  ]
+}
