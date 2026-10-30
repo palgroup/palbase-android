@@ -1,0 +1,157 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-calls-ui",
+    "version": "0.15.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase-calls",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.08.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-calls-ui-0.15.0.aar",
+          "url": "palbase-calls-ui-0.15.0.aar",
+          "size": 59028,
+          "sha512": "c61ef494847cf095c507e97dc4e87cc8c53ba8fb832220177aed4bdeef713be51d95d6618e89d68f30466a501415c25a613f9c5acc1b8665a7d9ab97621b6bba",
+          "sha256": "8b17374aac4836e20c6e74821a1f9bf280b900596c476c8a1490ff6190349b1d",
+          "sha1": "b4545d37a480fefd196cefddc0ca598dd7bed9ac",
+          "md5": "819aba681b8cbb7cceef73d2138ad438"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-calls",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.08.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-calls-ui-0.15.0.aar",
+          "url": "palbase-calls-ui-0.15.0.aar",
+          "size": 59028,
+          "sha512": "c61ef494847cf095c507e97dc4e87cc8c53ba8fb832220177aed4bdeef713be51d95d6618e89d68f30466a501415c25a613f9c5acc1b8665a7d9ab97621b6bba",
+          "sha256": "8b17374aac4836e20c6e74821a1f9bf280b900596c476c8a1490ff6190349b1d",
+          "sha1": "b4545d37a480fefd196cefddc0ca598dd7bed9ac",
+          "md5": "819aba681b8cbb7cceef73d2138ad438"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-calls-ui-0.15.0-javadoc.jar",
+          "url": "palbase-calls-ui-0.15.0-javadoc.jar",
+          "size": 466198,
+          "sha512": "f8d39f27aeec7594b17ac12ab99b6db381616ac8d907a90b784c7bf3c39706b72bd63d03e6f488adaa9327bd1cf81c3fadee127a31a3b3b1086c690cd9ab311e",
+          "sha256": "8f25034233de129ee43c067c61623c1968638b9d1aa4c17fc7dbbd1907f408a3",
+          "sha1": "9eb08f7eb73113cf1dec92c7aead5b31bae29563",
+          "md5": "1b084fb2ce2d628e39b4cd5c15c39e37"
+        }
+      ]
+    }
+  ]
+}

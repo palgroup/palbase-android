@@ -1,0 +1,260 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-bom",
+    "version": "0.15.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase-runtime",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-flags",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-analytics",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-realtime",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-notify",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-storage",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-purchases",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-messaging",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-ui",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-notify-ui",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-palbe",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-debug",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-voice",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-calls",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-calls-ui",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase-runtime",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-flags",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-analytics",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-realtime",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-notify",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-storage",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-purchases",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-messaging",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-ui",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-notify-ui",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-palbe",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-debug",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-voice",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-calls",
+          "version": {
+            "requires": "0.15.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-calls-ui",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ]
+    }
+  ]
+}
