@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-calls",
+    "version": "0.16.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.16.1"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-notify",
+          "version": {
+            "requires": "0.16.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-calls-0.16.1.aar",
+          "url": "palbase-calls-0.16.1.aar",
+          "size": 339552,
+          "sha512": "b831d5933e79c2a4c5010a090124755a64f04c7f16c5a23ed010b09271af17459bbe9a6f952f818e7d736bc375804e875bbecbcf28c334755aa174a774c95b06",
+          "sha256": "760b0e9002999d208cd207196f372c5180491c856bb858667cc784013afa607d",
+          "sha1": "3a9671ae6a033088d696362b1138060dd0db2a3b",
+          "md5": "dbfd99fdad0e3aa554ab667f2b7a92ae"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.livekit",
+          "module": "livekit-android",
+          "version": {
+            "requires": "2.29.2"
+          },
+          "excludes": [
+            {
+              "group": "com.github.davidliu",
+              "module": "audioswitch"
+            }
+          ]
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-telecom",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.16.1"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-notify",
+          "version": {
+            "requires": "0.16.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-calls-0.16.1.aar",
+          "url": "palbase-calls-0.16.1.aar",
+          "size": 339552,
+          "sha512": "b831d5933e79c2a4c5010a090124755a64f04c7f16c5a23ed010b09271af17459bbe9a6f952f818e7d736bc375804e875bbecbcf28c334755aa174a774c95b06",
+          "sha256": "760b0e9002999d208cd207196f372c5180491c856bb858667cc784013afa607d",
+          "sha1": "3a9671ae6a033088d696362b1138060dd0db2a3b",
+          "md5": "dbfd99fdad0e3aa554ab667f2b7a92ae"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-calls-0.16.1-javadoc.jar",
+          "url": "palbase-calls-0.16.1-javadoc.jar",
+          "size": 674090,
+          "sha512": "8d6707bef6c151f07df00801e5409c2d187b664186fe080d67e107dcc0389a90af8c9ce521936eb147563a5641e1c1b693703c3c3846c89edfb3c85628fdb52c",
+          "sha256": "ac08ac2a1ec60e1ad069a2e3b69b0577856eb795c529e8ff92131eba99a30a7c",
+          "sha1": "1bfaf2c7de5c58b14554101b5714fb4ef701ba05",
+          "md5": "b8ab2c133f68092197b3d97cb1690289"
+        }
+      ]
+    }
+  ]
+}
