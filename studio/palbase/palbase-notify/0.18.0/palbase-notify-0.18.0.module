@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-notify",
+    "version": "0.18.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.18.0"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "35.0.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-messaging"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-notify-0.18.0.aar",
+          "url": "palbase-notify-0.18.0.aar",
+          "size": 951309,
+          "sha512": "aab2d5f20ec9b19817a46e8fc0444e9bf71cd45e5ef1583bd6b7b6c518e6e673180a0b70b71bd53e46766480c9785f08dba000794cd76c905bba5c1f6fdb7a39",
+          "sha256": "1231ac3456cf676d3523b40fb915324ec2d7a9ff9704b437153300de8170a05c",
+          "sha1": "fe2be02c6ce6a9603cd9f1e9d95bc11562ddc0b4",
+          "md5": "3c6097235e8351df7e66a14778be2187"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.3.2"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.18.0"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "35.0.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-messaging"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-notify-0.18.0.aar",
+          "url": "palbase-notify-0.18.0.aar",
+          "size": 951309,
+          "sha512": "aab2d5f20ec9b19817a46e8fc0444e9bf71cd45e5ef1583bd6b7b6c518e6e673180a0b70b71bd53e46766480c9785f08dba000794cd76c905bba5c1f6fdb7a39",
+          "sha256": "1231ac3456cf676d3523b40fb915324ec2d7a9ff9704b437153300de8170a05c",
+          "sha1": "fe2be02c6ce6a9603cd9f1e9d95bc11562ddc0b4",
+          "md5": "3c6097235e8351df7e66a14778be2187"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-notify-0.18.0-javadoc.jar",
+          "url": "palbase-notify-0.18.0-javadoc.jar",
+          "size": 1427713,
+          "sha512": "c59d6988a2c888982336940139e19088b7c14a80ec178f97d7f588ff45c4389da822a2674bd1c3c9cf5919faf04f3a49fa690419b87a92274b83a91d54bc4ec0",
+          "sha256": "95b74d97502dd7255d6647be8c67aaa496c188d25ec666635095445f4facb3a8",
+          "sha1": "e5c32a2af0560561776e33589082a81e931aeb83",
+          "md5": "636764ec1d81ee31c89383ee6aa6c0d9"
+        }
+      ]
+    }
+  ]
+}
