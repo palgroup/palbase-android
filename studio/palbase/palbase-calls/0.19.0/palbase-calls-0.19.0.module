@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-calls",
+    "version": "0.19.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.19.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-notify",
+          "version": {
+            "requires": "0.19.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-calls-0.19.0.aar",
+          "url": "palbase-calls-0.19.0.aar",
+          "size": 338582,
+          "sha512": "e40999b97af726c1926444864728f3b9039cdf205d821ad522bbe0b95cdd77b8fe7c977d1e21eed5a3eea26f55080ff552cb6287906e82b2059d19a02fb94c5f",
+          "sha256": "b4535abb312e8c254f4a7e9838f40703e38d3f94ac964188ee7d669645562d1d",
+          "sha1": "1d0aa9688c57516eaceac50492d83d4c3209def7",
+          "md5": "cb3327a5f0f138950e7ebf5c629fcc8c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.livekit",
+          "module": "livekit-android",
+          "version": {
+            "requires": "2.29.2"
+          },
+          "excludes": [
+            {
+              "group": "com.github.davidliu",
+              "module": "audioswitch"
+            }
+          ]
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-telecom",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.19.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-notify",
+          "version": {
+            "requires": "0.19.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-calls-0.19.0.aar",
+          "url": "palbase-calls-0.19.0.aar",
+          "size": 338582,
+          "sha512": "e40999b97af726c1926444864728f3b9039cdf205d821ad522bbe0b95cdd77b8fe7c977d1e21eed5a3eea26f55080ff552cb6287906e82b2059d19a02fb94c5f",
+          "sha256": "b4535abb312e8c254f4a7e9838f40703e38d3f94ac964188ee7d669645562d1d",
+          "sha1": "1d0aa9688c57516eaceac50492d83d4c3209def7",
+          "md5": "cb3327a5f0f138950e7ebf5c629fcc8c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-calls-0.19.0-javadoc.jar",
+          "url": "palbase-calls-0.19.0-javadoc.jar",
+          "size": 669830,
+          "sha512": "32d621d28ea1b7c8f0db53e21874d99502dc956850fe4021c17d3416951238aa89e224f46eeade069d443a1ea983cca14220b698b9019885e020ae8895fe240e",
+          "sha256": "6d4315016bd54ea303f0a00d9bde526162469d3e69e3532880937a1be9e8130b",
+          "sha1": "4cc5f817ece7ce41271529bcec51ed37018e54f9",
+          "md5": "4d306f3541ae50faa3a83c05eadc0b50"
+        }
+      ]
+    }
+  ]
+}
