@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-ai",
+    "version": "0.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.20.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-ai-0.20.1.aar",
+          "url": "palbase-ai-0.20.1.aar",
+          "size": 197301,
+          "sha512": "db587fc5f87259c5a73a12494c978bc918460169c050173aceff9a5f34b994107f231dae5e28fee2c19c6e2e0fa3c41edb4a6458bdc3bffd2a47157f7509de88",
+          "sha256": "115a07539bdae37e24a8d2358b69b73de64c7adf351c4cf994433c2165d74328",
+          "sha1": "769436aba258bcda1b029543e06e7621667baa33",
+          "md5": "8ebdd6f62af78f2060dc068356356e6e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.20.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-ai-0.20.1.aar",
+          "url": "palbase-ai-0.20.1.aar",
+          "size": 197301,
+          "sha512": "db587fc5f87259c5a73a12494c978bc918460169c050173aceff9a5f34b994107f231dae5e28fee2c19c6e2e0fa3c41edb4a6458bdc3bffd2a47157f7509de88",
+          "sha256": "115a07539bdae37e24a8d2358b69b73de64c7adf351c4cf994433c2165d74328",
+          "sha1": "769436aba258bcda1b029543e06e7621667baa33",
+          "md5": "8ebdd6f62af78f2060dc068356356e6e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-ai-0.20.1-javadoc.jar",
+          "url": "palbase-ai-0.20.1-javadoc.jar",
+          "size": 528005,
+          "sha512": "8b47bd74b114a739bbbb405d813fefef41eced25b11a17b1e91733062c71e0a8d2a8e9f78caebbdf732cf091135bd51be02b6a56c708877530c468bf5860e3e6",
+          "sha256": "67675631484f9f56bfc31d6a406c7b77171b7f8a7a315f54aa4c9c44c042eba7",
+          "sha1": "0c987ec7d12c60cde5844582902991d432f40ac6",
+          "md5": "1a4d63603c60de9101f2ac5a38e449e8"
+        }
+      ]
+    }
+  ]
+}
