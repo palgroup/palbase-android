@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase",
+    "version": "0.21.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase-runtime",
+          "version": {
+            "requires": "0.21.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-0.21.0.aar",
+          "url": "palbase-0.21.0.aar",
+          "size": 2217742,
+          "sha512": "6d2a2b11c68f7fb0f353901ea0f8fdcd917d2d08922441b8802772403b1934b99e1e56772182f3003326ee4963c752336a932060bd3a1f461166282edfff3588",
+          "sha256": "b24c667084115a8c09eb6fd367b9b2322d165492171947804ac050fa946d55f9",
+          "sha1": "161df8676cd9659607e3ba15038afe1c72daebae",
+          "md5": "5cb84073f984fa75ae82a8bbf8712187"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.credentials",
+          "module": "credentials",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.credentials",
+          "module": "credentials-play-services-auth",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "com.google.android.libraries.identity.googleid",
+          "module": "googleid",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-runtime",
+          "version": {
+            "requires": "0.21.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-0.21.0.aar",
+          "url": "palbase-0.21.0.aar",
+          "size": 2217742,
+          "sha512": "6d2a2b11c68f7fb0f353901ea0f8fdcd917d2d08922441b8802772403b1934b99e1e56772182f3003326ee4963c752336a932060bd3a1f461166282edfff3588",
+          "sha256": "b24c667084115a8c09eb6fd367b9b2322d165492171947804ac050fa946d55f9",
+          "sha1": "161df8676cd9659607e3ba15038afe1c72daebae",
+          "md5": "5cb84073f984fa75ae82a8bbf8712187"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-0.21.0-javadoc.jar",
+          "url": "palbase-0.21.0-javadoc.jar",
+          "size": 2040743,
+          "sha512": "f1144e8d5b491d81c60d9edfa7b0ed71281a8a8a56666ea9628b0ac0c11453742c7bee0dfbd9c1f480d199d1b74cb583d8ffaaa7a30e40851891fe897b3ba360",
+          "sha256": "098aa0c9e47ddfd381e61423a0e330b4f4099a8127ac96153048f0055952adc9",
+          "sha1": "ba8d82e1864e40578297af85fa5242d20fc96139",
+          "md5": "e21c08b296875fb66d953b7d8e3ce0b9"
+        }
+      ]
+    }
+  ]
+}

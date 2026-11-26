@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-commerce",
+    "version": "0.21.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.21.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-commerce-0.21.0.aar",
+          "url": "palbase-commerce-0.21.0.aar",
+          "size": 410523,
+          "sha512": "a322f7c8fd2e53c7376616fc296451d79f254cb2a0a831267d5d8c239c58c83dcb2adf3aed163d5353c653c7d580aad540f729136b429375e53ed6bafcaf9986",
+          "sha256": "27e12d2406c4deb631fe27a41e74b10adc586f2485736b62d520e0c07038a694",
+          "sha1": "0d95f9faae3473c4cf14ae6cbcd0fc06843d9f9e",
+          "md5": "cfa30475afce81d4ad11acf10ead5e4a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.21.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-commerce-0.21.0.aar",
+          "url": "palbase-commerce-0.21.0.aar",
+          "size": 410523,
+          "sha512": "a322f7c8fd2e53c7376616fc296451d79f254cb2a0a831267d5d8c239c58c83dcb2adf3aed163d5353c653c7d580aad540f729136b429375e53ed6bafcaf9986",
+          "sha256": "27e12d2406c4deb631fe27a41e74b10adc586f2485736b62d520e0c07038a694",
+          "sha1": "0d95f9faae3473c4cf14ae6cbcd0fc06843d9f9e",
+          "md5": "cfa30475afce81d4ad11acf10ead5e4a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-commerce-0.21.0-javadoc.jar",
+          "url": "palbase-commerce-0.21.0-javadoc.jar",
+          "size": 655468,
+          "sha512": "9f0ade108b1b164d630f1b5cd68947e82ea0de573196675190146f37f2dc566bc3969fcd6f1a38d0e3ee61ad541027775f47afa9eee7a1b6fb443ad5080338ab",
+          "sha256": "a2e7544988e2747358603cdee33ed342ba675d0e1afd12ffe67ab0bf4e4d8c12",
+          "sha1": "6cf5ad9ae12c57e84785dd60b116d2f67a7900d4",
+          "md5": "178d45447f0ebe18b3c08649f05fe632"
+        }
+      ]
+    }
+  ]
+}

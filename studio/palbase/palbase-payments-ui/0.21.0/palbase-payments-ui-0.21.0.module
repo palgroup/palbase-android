@@ -1,0 +1,150 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-payments-ui",
+    "version": "0.21.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase-payments",
+          "version": {
+            "requires": "0.21.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.08.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-payments-ui-0.21.0.aar",
+          "url": "palbase-payments-ui-0.21.0.aar",
+          "size": 129932,
+          "sha512": "8b8977c74cab674150b7142f60c38607b5b1929f8f1ef666a4f098e3a9cb098219ca5e7a980c61fd7af9476db76fae202e812eb6ff3d70df5842911694746c99",
+          "sha256": "266587722c68740c1d363ba2f9ab0a82227e9d1801e2f0a21a4996819df168ff",
+          "sha1": "8ceb5b9772021a39f0d15bb8d1d563558cb06e0a",
+          "md5": "08d09f9d155925594a1680478658ae4c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase-payments",
+          "version": {
+            "requires": "0.21.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.08.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-payments-ui-0.21.0.aar",
+          "url": "palbase-payments-ui-0.21.0.aar",
+          "size": 129932,
+          "sha512": "8b8977c74cab674150b7142f60c38607b5b1929f8f1ef666a4f098e3a9cb098219ca5e7a980c61fd7af9476db76fae202e812eb6ff3d70df5842911694746c99",
+          "sha256": "266587722c68740c1d363ba2f9ab0a82227e9d1801e2f0a21a4996819df168ff",
+          "sha1": "8ceb5b9772021a39f0d15bb8d1d563558cb06e0a",
+          "md5": "08d09f9d155925594a1680478658ae4c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-payments-ui-0.21.0-javadoc.jar",
+          "url": "palbase-payments-ui-0.21.0-javadoc.jar",
+          "size": 450241,
+          "sha512": "dcde018d99fb71d8aa55c94601b8f3388bbbd033d22550702ca73ecd6acda64bfa67535937919f064bca268583cd1752f4accdcd20d64365c1888b9f82bf4aa4",
+          "sha256": "b3ae338df3d5325dff81a861533b736438153d1a250e37b10cfc3884ae476098",
+          "sha1": "81f96271c1f903a5ced4bd361ff0f0000c002569",
+          "md5": "9cb96dfdadaf14325d2ec6c411ce53d4"
+        }
+      ]
+    }
+  ]
+}
