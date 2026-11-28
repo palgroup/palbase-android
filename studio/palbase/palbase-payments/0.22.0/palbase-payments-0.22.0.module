@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-payments",
+    "version": "0.22.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.22.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-payments-0.22.0.aar",
+          "url": "palbase-payments-0.22.0.aar",
+          "size": 392353,
+          "sha512": "2a015697a7ab9544cfb5e05fb663be776bcaa32fe62a789a966fcd7802a63235d0b6452668d91fd6cda19a1b72c59a2db13124fb8d2a60f73222098e4c5a9cc7",
+          "sha256": "5e641526f68c3e7d2aa67b9e38103bca39c9c9230f9a6a724531a25b4277af84",
+          "sha1": "bdcffb3b847e48aa41f74feaaa45c38bfa3c63bc",
+          "md5": "c27aa60b0f4aa7078d3bde2034e5acf4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.22.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-payments-0.22.0.aar",
+          "url": "palbase-payments-0.22.0.aar",
+          "size": 392353,
+          "sha512": "2a015697a7ab9544cfb5e05fb663be776bcaa32fe62a789a966fcd7802a63235d0b6452668d91fd6cda19a1b72c59a2db13124fb8d2a60f73222098e4c5a9cc7",
+          "sha256": "5e641526f68c3e7d2aa67b9e38103bca39c9c9230f9a6a724531a25b4277af84",
+          "sha1": "bdcffb3b847e48aa41f74feaaa45c38bfa3c63bc",
+          "md5": "c27aa60b0f4aa7078d3bde2034e5acf4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-payments-0.22.0-javadoc.jar",
+          "url": "palbase-payments-0.22.0-javadoc.jar",
+          "size": 694647,
+          "sha512": "e94f7f000be6eec0c3ac5779d9e72cef128120d8544b684874127bef184adffc72dc2a63b79c6f88458494dde65a739f2368f5f92b48553bdc8410cbc06a1b9d",
+          "sha256": "4e4b5435b5ecb55ee60aeb5dc482dc98bd9f3e55a83c9514e62f698f1c93830e",
+          "sha1": "78de3a9726a795c2943c53ae9293e9a63a8bd69a",
+          "md5": "f488bc5904765116191a6d60925e225f"
+        }
+      ]
+    }
+  ]
+}
