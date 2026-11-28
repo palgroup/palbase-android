@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "studio.palbase",
+    "module": "palbase-palbe",
+    "version": "0.23.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.23.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-palbe-0.23.0.aar",
+          "url": "palbase-palbe-0.23.0.aar",
+          "size": 352380,
+          "sha512": "81663c54a035dc3fb12892269efe16e83c499375d1bf31b12ef5b2e24ba96e47ee23742fc5eb22b06cd350ae18d05772e40d144d54c06aa978eff47689de4108",
+          "sha256": "623811bf6e8469e774a223e4d2a6b6b525e7866677068659a7b9cfe6ae53e092",
+          "sha1": "703f7ca840898adb2d89b486800040710284ea1c",
+          "md5": "ded7a07cc306571e679b360bfc3822b6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.24.0"
+          }
+        },
+        {
+          "group": "studio.palbase",
+          "module": "palbase",
+          "version": {
+            "requires": "0.23.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "palbase-palbe-0.23.0.aar",
+          "url": "palbase-palbe-0.23.0.aar",
+          "size": 352380,
+          "sha512": "81663c54a035dc3fb12892269efe16e83c499375d1bf31b12ef5b2e24ba96e47ee23742fc5eb22b06cd350ae18d05772e40d144d54c06aa978eff47689de4108",
+          "sha256": "623811bf6e8469e774a223e4d2a6b6b525e7866677068659a7b9cfe6ae53e092",
+          "sha1": "703f7ca840898adb2d89b486800040710284ea1c",
+          "md5": "ded7a07cc306571e679b360bfc3822b6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "palbase-palbe-0.23.0-javadoc.jar",
+          "url": "palbase-palbe-0.23.0-javadoc.jar",
+          "size": 807415,
+          "sha512": "54a5935ab560ffd9400101d120365aaca0d2112b8e03d496364008846473e953fbbd6cdc04a5fe7d71e345a0b7d97ca0c28223be40b929e77f830894df378b52",
+          "sha256": "7065d2d161e15accce3ec143772c6cbe7d4e33e18c3ffd99754905d97ed44423",
+          "sha1": "03a06ed9cb7cfd57f9aa4b8519b03e1903eb9057",
+          "md5": "87740037aa0c03e04f685c32ae6a6b9e"
+        }
+      ]
+    }
+  ]
+}
